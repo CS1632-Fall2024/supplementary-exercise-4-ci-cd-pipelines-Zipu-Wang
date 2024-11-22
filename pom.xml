@@ -33,6 +33,8 @@
     <connection>scm:git:git://github.com/wonsunahn/CS1632_CICD_JUnit.git</connection>
     <developerConnection>scm:git:ssh://github.com:wonsunahn/CS1632_CICD_JUnit.git</developerConnection>
     <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
+  </scm>
+  
     <distributionManagement>
       <repository>
         <id>github</id>
@@ -40,8 +42,7 @@
         <url>https://maven.pkg.github.com/CS1632-Fall2024/supplementary-exercise-4-ci-cd-pipelines-Zipu-Wang</url>
       </repository>
     </distributionManagement>
-  </scm>
-
+  
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
